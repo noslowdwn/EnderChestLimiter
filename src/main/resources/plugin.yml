@@ -1,0 +1,15 @@
+name: EnderChestLimiter
+version: '${project.version}'
+main: noslowdwn.enderchestlimiter.EnderChestLimiter
+authors: [ noslowdwn ]
+description: Limit items for player in his enderchest
+
+commands:
+  eclimiter: {}
+
+permissions:
+  enderchestlimiter.reload:
+    description: Allows you to reload plugin's configuration file
+  enderchestlimiter.bypass.all:
+    description: Allows you to bypass all limits
+    default: op
